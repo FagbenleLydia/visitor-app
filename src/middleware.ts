@@ -18,7 +18,7 @@ export function middleware(request: NextRequest) {
     if (isAuth) {
       return NextResponse.redirect(new URL("/", request.url));
     }
-  }
+  } 
 }
 
 export const config = {
